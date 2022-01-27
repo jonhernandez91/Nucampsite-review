@@ -21,6 +21,7 @@ footer {
 }
 
 .jumbotron {
+    margin: 0;
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
@@ -31,7 +32,10 @@ footer {
     border-bottom: 1px ridge;
 }
 
-#social {
+.navbar {
+    background-color: #901CAD;
+}
+/* #social {
     display: flex;
     flex-direction: column;
-}
+} */
